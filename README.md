@@ -15,7 +15,7 @@ GRANT ALL PRIVILEGES ON gamescore.* TO 'gamescore'@'%';
 Creamos las tablas que utilizaremos. En el repositorio está el fichero con la descripcion de tablas para usarlo directamente gamescore.sql.
 
 ## Usuario admin
-Creamos el usuario admin para la aplicacion
+Creamos el usuario admin para la aplicacion la contraseña es admin
 
 INSERT INTO gamescore.usuarios(usuario, password, email, nivel, estado) VALUES ('admin','94662ad7fef2a7fdedeae615485dcc4ea3d73d97','admin@admin.es','100','1');
 
@@ -24,5 +24,12 @@ Clonamos o descargamos el repositorio para trabajar con él
 
 ## Instalar dependencias
 Necesitaremos instalar con composer la librería ghunti/highcharts-php https://packagist.org/packages/ghunti/highcharts-phpla
+
+## Mejoras a realizar
+-Paginación de resultados
+-Creación de usuarios desde sección admin
+-Sección de preferencias de usuario
+-Añadir notas de los juegos por parte de los usuarios
+...
 
 
