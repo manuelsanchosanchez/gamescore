@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size:18px;
+}
+
+body header a:link {
+    color: #2980b9;
+}
+
+body header a:visited {
+    color: #2980b9;
+}
+
+body header a:hover {
+    color: #73a1c0;
+}
+
+body header a:active {
+    color: #c0392b;
+}
+
+input, button, .button, textarea, select { font-family: 'Roboto Mono', monospace; font-size:18px; padding:0.5em;box-sizing: border-box;}
+input[type="text"],input[type="password"],input[type="email"], textarea, select { width:100%;}
+
+button {
+    background-color:#2980b9;
+    border: 1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+    text-decoration:none;
+}
+
+button:hover {
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+}
+
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.button {
+    background-color:#2980b9;
+    border: 1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+    text-decoration:none;
+}
+.button:hover {
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+main{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.container {
+    width:100%;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+  
+.item {
+    margin-bottom: 10px;
+}
+
+.form-datos{
+    padding:20px;
+    border-radius:20px;
+    background-color:#d1e3e6;
+}
+
+.form-label {
+    position:relative;
+    display:block;
+    clear:both;
+    max-width:500px;
+    margin:0 auto;   
+}
+
+.form-label label {
+    background:#657071;
+    color: white;
+    transform: translateY(50%);
+    position: absolute;
+    font-family: sans-serif;
+    left: 0.5em;
+    top: -35%;
+    font-size: .8em;
+    font-weight: normal;
+    padding: 0 .3em;    
+}
+
+#msgInfo{
+    display: none;
+}
+
+.msg{
+    margin-top: 20px;
+    border-radius:20px;
+    background-color: #6f9dbb;
+    color: white;
+    padding:5px;
+}
+
+.alerta{
+    background-color: #c0392b;
+}
+
+.ok{
+    background-color: #27ae60;
+}
+
+.info{
+    background-color: #2980b9;
+}
+
+.w100{
+    width:100%;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+body > header > nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body header > nav > ul > li {
+    display: inline;
+}
+
+body header{
+    background-color: black;
+    color:white;
+    padding:2em;
+}
+
+body header h1{
+    margin-top:0px;
+}
+
+table{
+    margin:50px 0px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table thead{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    text-align: left;
+}
+
+table td, table th{
+    padding:5px;
+}
+
+.fVerde{
+    background-color:#aadabf;
+}
+
+.fAzul{
+    background-color:#adc6e4;
+}
+
+.fav{
+    color:#f39c12;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.fav:hover{
+    color:gray;
+}
+
+.unfav{
+    color:gray;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.unfav:hover{
+    color:#f39c12;
+}

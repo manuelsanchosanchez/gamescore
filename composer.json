@@ -1,0 +1,14 @@
+{
+    "name": "manu/gamescore",
+    "description": "Gamescore php mysql tutorial",
+    "type": "project",
+    "authors": [
+        {
+            "name": "manugineta",
+            "email": "manuel.sancho.sanchez@gmail.com"
+        }
+    ],
+    "require": {
+        "ghunti/highcharts-php": "^3.0"
+    }
+}
