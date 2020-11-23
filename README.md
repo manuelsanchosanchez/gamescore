@@ -23,5 +23,6 @@ INSERT INTO gamescore.usuarios(usuario, password, email, nivel, estado) VALUES (
 Clonamos o descargamos el repositorio para trabajar con él
 
 ## Instalar dependencias
-Necesitaremos instalar con composer la librería ghunti/highcharts-php https://packagist.org/packages/ghunti/highcharts-php
+Necesitaremos instalar con composer la librería ghunti/highcharts-php https://packagist.org/packages/ghunti/highcharts-phpla
+
 
