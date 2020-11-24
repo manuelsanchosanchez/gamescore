@@ -18,10 +18,10 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure for fichajuego
+-- Table structure for fichaJuego
 -- ----------------------------
-DROP TABLE IF EXISTS `fichajuego`;
-CREATE TABLE `fichajuego`  (
+DROP TABLE IF EXISTS `fichaJuego`;
+CREATE TABLE `fichaJuego`  (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `idJuego` int(255) UNSIGNED NOT NULL,
   `idPlataforma` tinyint(255) UNSIGNED NOT NULL,
@@ -71,10 +71,10 @@ CREATE TABLE `plataformas`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 11 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
--- Table structure for usuariojuego
+-- Table structure for usuarioJuego
 -- ----------------------------
-DROP TABLE IF EXISTS `usuariojuego`;
-CREATE TABLE `usuariojuego`  (
+DROP TABLE IF EXISTS `usuarioJuego`;
+CREATE TABLE `usuarioJuego`  (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
   `idFichaJuego` int(255) UNSIGNED NOT NULL,
   `usuario` varchar(45) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
@@ -82,7 +82,7 @@ CREATE TABLE `usuariojuego`  (
   PRIMARY KEY (`id`) USING BTREE,
   UNIQUE INDEX `K_usuarioJuego`(`idFichaJuego`, `usuario`) USING BTREE,
   INDEX `FK_usuarioJuego`(`usuario`) USING BTREE,
-  CONSTRAINT `FK_fichaJuego` FOREIGN KEY (`idFichaJuego`) REFERENCES `fichajuego` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `FK_fichaJuego` FOREIGN KEY (`idFichaJuego`) REFERENCES `fichaJuego` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   CONSTRAINT `FK_usuarioJuego` FOREIGN KEY (`usuario`) REFERENCES `usuarios` (`usuario`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE = InnoDB AUTO_INCREMENT = 9 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_general_ci ROW_FORMAT = Dynamic;
 
