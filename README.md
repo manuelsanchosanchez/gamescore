@@ -6,7 +6,7 @@ _Tutorial CRUD Mysql con PHP7, PDO y Sesiones_
 _Deberás tener todas las herramientas necesarias para empezar a trabajar con este proyecto_
 
 ### Herramientas :hammer_and_wrench:
-_Puedes descargar e instalar manualmente todas estas herramientas, mediante apt u otro gestor de paquetes o puedes instalar una distribución que ya lo incluya como [XAMPP] - (https://www.apachefriends.org/es/index.html)_
+_Puedes descargar e instalar manualmente todas estas herramientas, mediante apt u otro gestor de paquetes o puedes instalar una distribución que ya lo incluya como [XAMPP](https://www.apachefriends.org/es/index.html)_
 
 * [Apache](https://httpd.apache.org/) - Necesitarás tener un servidor Apache. activo
 
