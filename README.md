@@ -10,13 +10,13 @@ _Puedes descargar e instalar manualmente todas estas herramientas, mediante apt 
 
 * [Apache](https://httpd.apache.org/) - Necesitarás tener un servidor Apache. activo
 
-* [PHP7] (https://www.php.net/) - Necesitarás la versión PHP 7.
+* [PHP7](https://www.php.net/) - Necesitarás la versión PHP 7.
 
-* [Mysql] (https://www.mysql.com/) - Como motor de base de datos usaremos Mysql.
+* [Mysql](https://www.mysql.com/) - Como motor de base de datos usaremos Mysql.
 
-* [Composer] (https://getcomposer.org/) - Para la instalación de la libreria de gráficas usaremos Composer.
+* [Composer](https://getcomposer.org/) - Para la instalación de la libreria de gráficas usaremos Composer.
 
-* [highcharts] (https://packagist.org/packages/ghunti/highcharts-php) - Usaremos esta librería para crear gráficas
+* [highcharts](https://packagist.org/packages/ghunti/highcharts-php) - Usaremos esta librería para crear gráficas
 
 ## Base de datos :key:
 _Necesitaremos crear la base de datos, usuarios y tablas que usarán la aplicación_
