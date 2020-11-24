@@ -37,7 +37,7 @@ GRANT ALL PRIVILEGES ON gamescore.* TO 'gamescore'@'%';
 ```
 
 ### Crear las tablas
-_Creamos las tablas que utilizaremos. En el repositorio está el fichero con la descripcion de tablas para importarlo directamente [gamescore.sql]https://github.com/manugineta/gamescore/blob/master/gamescore.sql_
+_Creamos las tablas que utilizaremos. En el repositorio está el fichero con la descripcion de tablas para importarlo directamente [gamescore.sql](https://github.com/manugineta/gamescore/blob/master/)gamescore.sql_
 
 ### Insertar el usuario admin
 _Creamos el usuario admin en la tabla de usuarios para la aplicacion. Tanto el usuario como la contraseña son 'admin'_
